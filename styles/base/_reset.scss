@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  font-family: "Noto Sans KR";
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Noto Sans KR";
+}
+
+body {
+  font-family: "Noto Sans KR";
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button,
+input,
+select,
+textarea {
+  border: 0;
+  background-color: transparent;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+a,
+button:hover {
+  cursor: pointer;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+}

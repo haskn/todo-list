@@ -1,4 +1,7 @@
-@import "./base/_fonts.scss";
 * {
   font-family: "Anton", sans-serif;
 }
+@import "./base/_fonts.scss";
+
+@import "./base/_normalize.scss";
+@import "./base/_reset.scss";

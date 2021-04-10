@@ -1,5 +1,4 @@
-p{
-  color: red;
-  color: black;
-color: blue;
-border: 3px solid black;}
+@import "./base/_fonts.scss";
+* {
+  font-family: "Anton", sans-serif;
+}

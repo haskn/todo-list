@@ -3,8 +3,11 @@
 @import "./constants/typography";
 
 //base
-@import "./base/_fonts.scss";
+@import "./base/_fonts";
 
 //things for reset
-@import "./base/_normalize.scss";
-@import "./base/_reset.scss";
+@import "./base/_normalize";
+@import "./base/_reset";
+
+//layouts
+@import "./layouts/grids";

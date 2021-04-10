@@ -1,7 +1,10 @@
-* {
-  font-family: "Anton", sans-serif;
-}
+//constants
+@import "./constants/colors";
+@import "./constants/typography";
+
+//base
 @import "./base/_fonts.scss";
 
+//things for reset
 @import "./base/_normalize.scss";
 @import "./base/_reset.scss";
